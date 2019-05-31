@@ -1,0 +1,25 @@
+body{
+    background-image:url(../img/20.jpg);/*agrega imagen de fondo*/
+    background-position: center;/*deja el fondo centrado*/
+    background-attachment: fixed;
+}
+
+h5{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+button[type="button"]{
+    background: rgb(0, 0, 0);
+}
+
+button[type="button"]:hover{
+    background: rgb(31, 163, 119);
+}
+
+a:hover{
+    color: green;
+}
