@@ -1,5 +1,5 @@
 <?php
-$link='mysql:host=localhost;dbname=me';//variable con la direccion de la BDD para metodo PDO
+$link='mysql:host=localhost;dbname=r';//variable con la direccion de la BDD para metodo PDO
 $user='root';//usuario mysql
 $password='root';//contraseña mysql
 try {//traer de la BDD

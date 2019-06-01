@@ -1,25 +1,33 @@
 body{
     background-image:url(../img/20.jpg);/*agrega imagen de fondo*/
     background-position: center;/*deja el fondo centrado*/
-    background-attachment: fixed;
+    background-attachment: fixed;/*deja el fondo fijado*/
 }
 
-h5{
-    text-align: center;
+h1, h5{
+    text-align: center;/* centra el texto */
 }
 
 p{
-    text-align: justify;
+    text-align: justify;/* justifica el texto */
 }
 
 button[type="button"]{
-    background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);/*color de fondo para el boton  */
 }
 
-button[type="button"]:hover{
+button[type="button"]:hover{/* cuando el mouse pase arriba de el boton cambia de color */
     background: rgb(31, 163, 119);
 }
 
-a:hover{
+a{
+    color: black;/* cambia el color en pag perfil de el enlace a cerrar secion */
+}
+a:hover{/* cambia de color y quita subrayado al pasar el mouse por encima */
     color: green;
+    text-decoration: none;
+}
+
+form{
+    background: whitesmoke;/* color de fondo de los cuestionarios */
 }

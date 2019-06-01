@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <LINK REL=StyleSheet HREF="css/bootstrap.min.css">
-    <title>Document</title>
+    <LINK REL=StyleSheet HREF="css/bootstrap.min.css"><!--enlace a css -->
+    <title>Document</title><!-- Titulo --><!-- Titulo -->>
 </head>
 <body>
     <div class="container">
@@ -56,4 +56,4 @@
 </html>
 
 
-col-md-12 col-sm-12 col-mb-12
+col-md-12 col-sm-8 col-mb-12
